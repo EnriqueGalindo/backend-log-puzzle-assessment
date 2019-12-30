@@ -31,7 +31,6 @@ def read_urls(filename):
     with open(filename, 'r') as file_:
         
 
-
 def download_images(img_urls, dest_dir):
     """Given the urls already in the correct order, downloads
     each image into the given directory.

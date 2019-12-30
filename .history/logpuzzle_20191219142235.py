@@ -28,8 +28,8 @@ def read_urls(filename):
     extracting the hostname from the filename itself.
     Screens out duplicate urls and returns the urls sorted into
     increasing order."""
-    with open(filename, 'r') as file_:
-        
+    # +++your code here+++
+    pass
 
 
 def download_images(img_urls, dest_dir):
